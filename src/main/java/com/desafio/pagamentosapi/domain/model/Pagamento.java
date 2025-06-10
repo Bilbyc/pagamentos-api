@@ -1,9 +1,17 @@
-package com.desafio.pagamentosapi.domain;
+package com.desafio.pagamentosapi.domain.model;
 
+import com.desafio.pagamentosapi.domain.enums.StatusPagamento;
+import com.desafio.pagamentosapi.domain.enums.TipoMetodoPagamento;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 public class Pagamento {
     @Id

@@ -1,4 +1,4 @@
-package com.desafio.pagamentosapi.domain;
+package com.desafio.pagamentosapi.domain.enums;
 
 import java.util.Arrays;
 import java.util.Optional;
